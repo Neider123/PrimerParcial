@@ -53,10 +53,31 @@ h1{
     height: 200px;
 }
 
+.enlaces-relacionados{
+    margin-top: 5px;
+}
+
 .noticias{
     margin-top: 10px;
     margin: 5px;
     display: flex;
+}
+
+
+.enlaces{
+    padding: 5px;
+    margin-bottom: 5px;
+    transition: color 0.3s, border-bottom-color 0.3s;
+    border-bottom: 2px solid #333;
+}
+
+
+.enlaces:hover{
+    background-color: #4563a8;
+}
+
+a{
+    text-decoration: none;
 }
 
  main{
@@ -66,7 +87,6 @@ h1{
  aside{
     min-height: 400px;
     min-width: 200px;
-    background-color: blueviolet;
  }
 
 
