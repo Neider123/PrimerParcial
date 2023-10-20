@@ -53,14 +53,14 @@ h1{
 
  .footer1{
     width: 600px;
-    background-color: chocolate;
+    background-color :#567bd1;
     padding: 20px;
  }
 
  h3{
     font-size: 1.5em;
     font-style: bold;
-    padding-bottom: 4px;
+    padding-bottom: 5px;
  }
 
  ul{
@@ -68,7 +68,16 @@ h1{
  }
 
  .footer2{
-    background-color:darkgreen;
+    background-color:#4563a8;
     padding: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
  }
+
+ p{
+   max-width: 50%;
+ }
+
+ 
 
