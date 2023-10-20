@@ -12,7 +12,7 @@ header{
 }
 
 
-img{
+.imagen-logo{
     height: 60px;
     width: 60px;
     border-radius: 100%;
@@ -30,9 +30,37 @@ h1{
     max-width: 1200px; /* Ancho máximo del contenedor */
 }
 
+.container{
+    margin: 5px;
+}
+
+.contenido-principal{
+    margin-top: 10px;
+    display: flex;
+}
+
+.texto-noticia{
+    margin-left: 5px;
+}
+
+.contenido-secundario{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.imagen-noticia{
+    width: 200px;
+    height: 200px;
+}
+
+.noticias{
+    margin-top: 10px;
+    margin: 5px;
+    display: flex;
+}
+
  main{
     min-height: 400px;
-    background-color: bisque;
  }
 
  aside{
@@ -73,6 +101,10 @@ h1{
     display: flex;
     align-items: center; 
     justify-content: center; 
+ }
+
+ .parrafo{
+    max-width: 100%;
  }
 
  p{
