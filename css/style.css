@@ -57,6 +57,16 @@ h1{
     padding: 20px;
  }
 
+ h3{
+    font-size: 1.5em;
+    font-style: bold;
+    padding-bottom: 4px;
+ }
+
+ ul{
+    list-style-type: none;
+ }
+
  .footer2{
     background-color:darkgreen;
     padding: 20px;
