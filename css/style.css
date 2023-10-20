@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    max-width: 1200px;
+    min-height: 120px;
+    background-color: brown;
+}
+
+
+.contenido {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Main ocupa 3/4 y Aside ocupa 1/4 */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+}
+
+ main{
+    min-height: 400px;
+    background-color: bisque;
+ }
+
+ aside{
+    min-height: 400px;
+    background-color: blueviolet;
+ }
+
+
+
+ footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    max-width: 1200px; 
+    min-height: 80px;
+    max-height: 80px;
+ }
+
+ .footer1{
+    width: 600px;
+    background-color: chocolate;
+    padding: 20px;
+ }
+
+ .footer2{
+    background-color:darkgreen;
+    padding: 20px;
+ }
+
