@@ -7,7 +7,20 @@
 header{
     max-width: 1200px;
     min-height: 120px;
-    background-color: brown;
+    background-color: #567bd1;
+    display: flex;
+}
+
+
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+h1{
+    font-size: 2.5em;
+    align-self: stretch;
 }
 
 
@@ -24,6 +37,7 @@ header{
 
  aside{
     min-height: 400px;
+    min-width: 200px;
     background-color: blueviolet;
  }
 
